@@ -1,5 +1,5 @@
 # Html
-
+Object oriented tool for building HTML documents.
 
 Requirements
 ============
@@ -27,7 +27,9 @@ $element = (new Valerian\Html\Html())
 echo (string) $element;
 ```
 
+```html
 <html class="foo" id="bar"></html>
+```
 
 Body
 ```php
@@ -38,7 +40,9 @@ $element = (new Valerian\Html\Body())
 echo (string) $element;
 ```
 
+```html
 <body class="foo" id="bar"></body>
+```
 
 Div
 ```php
@@ -49,7 +53,9 @@ $element = (new Valerian\Html\Div())
 echo (string) $element;
 ```
 
+```html
 <div class="foo" id="bar"></div>
+```
 
 Span
 ```php
@@ -60,7 +66,9 @@ $element = (new Valerian\Html\Span())
 echo (string) $element;
 ```
 
+```html
 <span class="foo" id="bar"></span>
+```
 
 Paragraph
 ```php
@@ -71,7 +79,9 @@ $element = (new Valerian\Html\Paragraph())
 echo (string) $element;
 ```
 
+```html
 <p class="foo" id="bar"></p>
+```
 
 Image
 ```php
@@ -84,7 +94,9 @@ $element = (new Valerian\Html\Img('image url'))
 echo (string) $element;
 ```
 
+```html
 <img src="image url" alt="alt text" width="100" height="200" class="foo" id="bar">
+```
 
 Input
 ```php
@@ -95,7 +107,9 @@ $input = (new Valerian\Html\Input('text', 'foo'))
 echo (string) $input;
 ```
 
+```html
 <input type="text" name="foo" value="bar" class="foo" id="bar">
+```
 
 Select
 ```php
@@ -112,10 +126,12 @@ $select = (new Valerian\Html\Select('foo'))
 echo (string) $select;
 ```
 
+```html
 <select name="foo" value="bar" class="foo" id="bar">
     <option value="1" disabled="disabed">Option 1</option>
     <option value="2">Option 2</option>
 </select>
+```
 
 Form
 ```php
@@ -128,6 +144,7 @@ $input = (new Valerian\Html\Form('#'))
 echo (string) $input;
 ```
 
+```html
 <form action="#" method="GET" class="foo" id="bar">
     <input type="text" name="foo" value="bar" class="foo" id="bar">
     <select name="foo" value="bar" class="foo" id="bar">
@@ -135,3 +152,4 @@ echo (string) $input;
         <option value="2">Option 2</option>
     </select>
 </form>
+```
