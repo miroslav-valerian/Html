@@ -1,0 +1,35 @@
+{
+	"name": "valerian/html",
+	"type": "library",
+	"description": "Object oriented tool for building HTML documents.",
+	"keywords": ["html, html objects"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Miroslav Valerian",
+			"homepage": "http://www.miroslav-valerian.cz",
+			"email": "info@miroslav-valerian.cz"
+		}
+	],
+	"support": {
+		"email": "info@miroslav-valerian.cz",
+		"issues": "https://github.com/miroslav-valerian/html/issues"
+	},
+	"version": "v0.0.1",
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": ">=4.8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Valerian\\Html\\": "src/"
+		}
+	},
+    "autoload-dev": {
+      "psr-4": {
+        "Valerian\\Html\\Test\\": "tests/"
+      }
+    }
+}
