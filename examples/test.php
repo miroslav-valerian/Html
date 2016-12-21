@@ -52,5 +52,5 @@ $html = (new \Valerian\Html\Html())
     );
 
 echo (string) $html;
-// or
-echo $html->render();
+// or use
+//echo $html->render();
