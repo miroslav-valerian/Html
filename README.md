@@ -27,6 +27,7 @@ $element = (new Valerian\Html\Html())
 echo (string) $element;
 ```
 
+Output:
 ```html
 <html class="foo" id="bar"></html>
 ```
@@ -40,6 +41,7 @@ $element = (new Valerian\Html\Body())
 echo (string) $element;
 ```
 
+Output:
 ```html
 <body class="foo" id="bar"></body>
 ```
@@ -53,6 +55,7 @@ $element = (new Valerian\Html\Div())
 echo (string) $element;
 ```
 
+Output:
 ```html
 <div class="foo" id="bar"></div>
 ```
@@ -66,6 +69,7 @@ $element = (new Valerian\Html\Span())
 echo (string) $element;
 ```
 
+Output:
 ```html
 <span class="foo" id="bar"></span>
 ```
@@ -79,6 +83,7 @@ $element = (new Valerian\Html\Paragraph())
 echo (string) $element;
 ```
 
+Output:
 ```html
 <p class="foo" id="bar"></p>
 ```
@@ -94,6 +99,7 @@ $element = (new Valerian\Html\Img('image url'))
 echo (string) $element;
 ```
 
+Output:
 ```html
 <img src="image url" alt="alt text" width="100" height="200" class="foo" id="bar">
 ```
@@ -107,6 +113,7 @@ $input = (new Valerian\Html\Input('text', 'foo'))
 echo (string) $input;
 ```
 
+Output:
 ```html
 <input type="text" name="foo" value="bar" class="foo" id="bar">
 ```
@@ -126,6 +133,7 @@ $select = (new Valerian\Html\Select('foo'))
 echo (string) $select;
 ```
 
+Output:
 ```html
 <select name="foo" value="bar" class="foo" id="bar">
     <option value="1" disabled="disabed">Option 1</option>
@@ -144,6 +152,7 @@ $input = (new Valerian\Html\Form('#'))
 echo (string) $input;
 ```
 
+Output:
 ```html
 <form action="#" method="GET" class="foo" id="bar">
     <input type="text" name="foo" value="bar" class="foo" id="bar">
