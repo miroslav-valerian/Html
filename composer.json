@@ -2,7 +2,6 @@
 	"name": "valerian/html",
 	"type": "library",
 	"description": "Object oriented tool for building HTML documents.",
-	"keywords": ["html, html objects"],
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
 		{
